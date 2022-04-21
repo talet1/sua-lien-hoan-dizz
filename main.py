@@ -29,6 +29,6 @@ while True:
         for i in messages:
             sendMessage(token, channel, (f"<@{sucvat}>" + " " + i ))
             #sendMessage(token, channel, i)
-            time.sleep(1.5)
+            time.sleep(random.randint(5, 10))
     except Exception as e:
         print("An error occurred!")
